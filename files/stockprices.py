@@ -60,5 +60,5 @@ ax.xaxis.set_minor_locator(months)
 ax.autoscale_view()
 fig.autofmt_xdate()
 
-plt.savefig('tmp.pdf'); plt.savefig('tmp.png')
+#plt.savefig('tmp.pdf'); plt.savefig('tmp.png')
 plt.show()
