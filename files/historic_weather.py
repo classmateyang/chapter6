@@ -1,4 +1,5 @@
 import urllib
+import pprint
 url = 'http://www.metoffice.gov.uk/climate/uk/stationdata/oxforddata.txt'
 local_file = 'Oxford.txt'
 urllib.urlretrieve(url, filename=local_file)
